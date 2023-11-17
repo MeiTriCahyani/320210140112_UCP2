@@ -33,4 +33,8 @@ class OrderviewMOdel: ViewModel() {
    fun setDosen(pilihDosen: String){
       _uiState.update {currentState -> currentState.copy(dosen = pilihDosen) }
    }
+
+   fun setDosen1(pilihDosen1: String){
+      _uiState.update {currentState -> currentState.copy(dosen = pilihDosen1) }
+   }
    }
