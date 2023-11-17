@@ -13,7 +13,7 @@ import kotlinx.coroutines.flow.update
 class OrderviewMOdel: ViewModel() {
    var namaMhs : String by mutableStateOf("")
       private set
-   var nim : String by mutableStateOf("")
+   var nimmhs: String by mutableStateOf("")
       private set
    var konsen : String by mutableStateOf("")
       private set
@@ -25,7 +25,7 @@ class OrderviewMOdel: ViewModel() {
 
    fun insertData(nm: String, Nim: String, Konsen: String, jdl: String){
       namaMhs = nm;
-      nim = Nim;
+      nimmhs = Nim;
       konsen= Konsen;
       judul= jdl
    }
